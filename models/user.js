@@ -8,6 +8,7 @@ var userSchema = new Schema({
 	lastName: String,
 	skills: [{ skill: String, years: Number }],
 	interests: [ String ],
+	bio: String,
 	meta: {
 		joined: { type: Date, default: Date.now },
 		city: String,

@@ -33,6 +33,7 @@ app.use(setHeaders);
 
 require('./routes/user')(router, debug);
 require('./routes/match')(router, debug);
+require('./routes/feed')(router, debug);
 /** Add router endpoints to app **/
 app.use('/', router);
 /** Spin app **/

@@ -1,5 +1,5 @@
 var config = {
-	DEBUG: true,
+	DEBUG: false,
 	PORT: 3000
 };
 
