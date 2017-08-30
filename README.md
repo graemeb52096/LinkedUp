@@ -15,10 +15,15 @@ Node >= 7.8.0
 brew install node
 ```
 express.js >= 4.15.0
-body-parser >= ^1.17.0
-chai >= ^4.1.0
+
+body-parser >= 1.17.0
+
+chai >= 4.1.0
+
 chai-http >= 3.0.0
+
 mocha >= 3.4.0
+
 mongoose >= 4.11.0
 ```
 npm install
